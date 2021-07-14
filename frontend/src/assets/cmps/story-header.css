@@ -1,0 +1,8 @@
+.story-header{
+    display: flex;
+    align-items: center;
+}
+.user-mid-img{
+    width: 30px;
+    margin: 15px;
+}
