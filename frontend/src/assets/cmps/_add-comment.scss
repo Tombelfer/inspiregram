@@ -1,0 +1,23 @@
+.comment-add{
+    display: flex;
+    height: 55px;
+    border-top:1px solid #dbdbdd ;
+    padding-left: 16px;
+    align-items: center;
+    .emoji-select{
+        line-height: 0px;
+        padding-right: 8px;
+    }
+}
+.comment-text{
+    background-color:#ffff;
+        border: none;
+        // overflow: auto;
+        // box-shadow: none;
+        
+        // resize: none; /*remove the resize handle on the bottom right*/
+    }
+    .comment-text:focus{
+        // border: none;
+        outline: none;
+    }

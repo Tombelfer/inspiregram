@@ -1,8 +1,18 @@
 <template>
   <div class="story-comments">
     <div v-for="comment in comments" :key="comment._id">
-      <!-- <img :src="comment.by.imgUrl" alt=""> -->
-      {{comment.by.fullname}} {{ comment.txt }}
+      <div>
+        <span>
+      <router-link to="/" class="autor-name comment">
+        {{ comment.by.fullname }}
+      </router-link>
+        </span>
+        <span>
+      <p class="comment-txt">
+        {{ comment.txt }}
+      </p>
+        </span>
+      </div>
     </div>
   </div>
 </template>

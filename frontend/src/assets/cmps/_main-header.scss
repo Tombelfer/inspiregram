@@ -1,0 +1,29 @@
+.main-header{
+    border-bottom: 1px solid #dbdbdb;
+    position: sticky;
+    top: 0;
+    /* z-index: 2; */
+.logo{
+    padding-top: 7px;
+}
+}
+.main-header-container{
+    display: flex;
+    height: 54px;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+        align-items: center;
+        
+    
+}
+
+nav >a{
+    display: flex;
+    margin-left: 20px;
+
+}
+

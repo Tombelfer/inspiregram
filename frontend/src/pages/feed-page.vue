@@ -1,7 +1,6 @@
 <template>
   <div class="feed">
     <storyList :stories="stories"/>
-    <!-- {{this.stories}} -->
   </div>
 </template>
 
